@@ -3,7 +3,7 @@ function checkAge(age) {
         age = parseInt(age, 10);
     }
 
-    if (typeof age !== 'number') {
+    if (typeof age !== 'number' || isNaN(age)) {
         throw new Error("age is not of Number type");
     }
 
@@ -23,7 +23,3 @@ function checkAge(age) {
         console.log("Technical work")
     }
 }
-
-checkAge(17);
-checkAge(18);
-checkAge(61);
