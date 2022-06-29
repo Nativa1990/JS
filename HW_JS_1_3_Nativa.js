@@ -1,5 +1,5 @@
 function checkAge(age) {
-    if (typeof age === 'string' && age.length == 1) {
+    if (typeof age === 'string') {
         age = parseInt(age, 10);
     }
 
