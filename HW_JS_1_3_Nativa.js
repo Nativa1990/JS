@@ -23,3 +23,7 @@ function checkAge(age) {
         console.log("Technical work")
     }
 }
+
+checkAge(17);
+checkAge(18);
+checkAge(61);
